@@ -86,7 +86,7 @@ def plot_circle(x, y, size, color="-b", label=None):  # pragma: no cover
 
 if __name__ == "__main__":
 
-    save_path = "../firstExample/dvalues/"
+    save_path = "data/"
 
     fid = open(save_path + "d_value.pkl", 'rb')
     d_value = pickle.load(fid)
